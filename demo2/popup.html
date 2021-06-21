@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <script src="popup.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <input type="checkbox" id="regularValue" />
+      允许第三方站点设置 cookie
+      <div id="incognito">
+        <input type="checkbox" id="useSeparateIncognitoSettings" />
+        无痕模式单独设置:
+        <br />
+        <input type="checkbox" id="incognitoValue" disabled="disabled" />
+        允许第三方站点在无痕模式设置 cookie
+      </div>
+      <div id="incognito-forbidden">允许在无痕模式访问无痕模式参数</div>
+    </div>
+  </body>
+</html>

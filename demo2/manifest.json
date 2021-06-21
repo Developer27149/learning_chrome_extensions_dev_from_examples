@@ -2,6 +2,7 @@
   "name": "block/allow third-party cookies api",
   "version": "1",
   "manifest_version": 3,
+  "description": "展示扩展如何控制 Cookie 的接受与否",
   "permissions": [
     "privacy"
   ],
